@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/assignment-1-ehsanrasul.git/static/css/main.eb23ce0c.css",
+    "main.js": "/assignment-1-ehsanrasul.git/static/js/main.211fb516.js",
+    "index.html": "/assignment-1-ehsanrasul.git/index.html",
+    "main.eb23ce0c.css.map": "/assignment-1-ehsanrasul.git/static/css/main.eb23ce0c.css.map",
+    "main.211fb516.js.map": "/assignment-1-ehsanrasul.git/static/js/main.211fb516.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb23ce0c.css",
+    "static/js/main.211fb516.js"
+  ]
+}
