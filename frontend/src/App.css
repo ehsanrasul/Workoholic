@@ -14,14 +14,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {
@@ -35,4 +35,238 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.root {
+  --main-background-color: #F9FBF2;
+  --main-top-background-color: #FBFEF9;
+  --main-accent-color: #FB8F67;
+  --title-color: #1E2019;
+}
+
+.button.is-primary {
+  background-color: var(--main-accent-color);
+}
+
+.button.is-primary:hover {
+  background-color: var(--title-color);
+}
+
+.title {
+  color: var(--main-accent-color);
+  font-family: 'Inconsolata', monospace;
+  font-size: 3em;
+}
+
+#inner-large-banner {
+  height: 40%;
+  width: 100%;
+  /*background-image: url('img/forest.jpg');*/
+  background-size: cover;
+  background-position: 50% 25%;
+}
+
+#wrapper {
+  width: 80%;
+  min-height: 70%;
+  /* margin-top: -100px; */
+  background-color: var(--main-top-background-color);
+  margin: -100px auto 0 auto;
+  padding: 30px;
+  box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);
+  border-radius: .25rem;
+}
+
+#product-catalog {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.product-title {
+  font-size: 2em;
+}
+
+
+.GIG {
+
+  margin-left: 0% ;
+
+}
+
+
+.InputBox {
+
+padding: 7px;
+display: block;
+border: 1px solid skyblue;
+width: 350px;
+margin: 20px;
+
+}
+
+
+#Description{
+
+  height: 100px;
+  width: 350px;
+  text-align: top;
+
+}
+
+
+#price{
+
+margin-right: 15px;
+margin-left: 10px;
+
+}
+
+
+.GigsListing{
+
+height: 200px;
+width: 1040px;
+
+}
+
+.ManageGigs {
+
+margin-left: 120px;
+margin-right: 120px;
+
+}
+
+th {
+  background-color: #04AA6D;
+  color: white;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+td{
+
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+
+}
+
+
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+  opacity: 1;
+  transition: opacity 0.6s;
+  margin-bottom: 15px;
+}
+
+
+.alert.success {background-color: #04AA6D;}
+
+
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+.closebtn:hover {
+  color: black;
+}
+
+
+.Button{
+
+  margin-right:8px;
+
+  background: #04AA6D;
+  border-radius: 999px;
+  box-shadow: #0A2558 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 12px 15px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+  text-decoration: none;
+  
+  
+
+}
+
+
+/* #Link{
+
+  padding: 15px 25px;
+
+} */
+
+
+.Create_Gig{
+
+margin-left: 800px;
+
+}
+
+
+
+/* body {
+  background: white;
+} */
+
+.text-small {
+  font-size: 0.9rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+.form-control {
+  background: white;
+  border-color: #545454;
+}
+
+.form-control:focus {
+  background: rgb(249, 245, 245);
+}
+
+footer {
+  background: #212529;
+}
+
+.TagLine{
+
+text-align: center;
+text-transform: inherit;
+text-decoration: double;
+text-rendering: optimizeSpeed;
+text-shadow: #04AA6D;
+
+
 }
